@@ -1,0 +1,1441 @@
+gender,nationality,source,target,weight
+Men,American,looks,1,0.18
+Men,American,looks,2,0.13
+Men,American,personality,5,0.08
+Men,Arabian,money,5,0.16
+Women,Malaysian,money,5,0.25
+Women,Malaysian,money,6,0.21
+Women,Malaysian,shared interests,1,0.08
+Women,Malaysian,shared interests,2,0.15
+Women,Malaysian,shared interests,3,0.19
+Women,Malaysian,shared interests,4,0.17
+Women,Malaysian,shared interests,5,0.2
+Women,Malaysian,shared interests,6,0.22
+Men,Norwegian,looks,1,0.14
+Men,Norwegian,looks,2,0.16
+Men,Arabian,money,6,0.65
+Men,Norwegian,looks,3,0.21
+Men,Norwegian,looks,4,0.19
+Men,Norwegian,looks,5,0.24
+Men,Norwegian,looks,6,0.05
+Men,Norwegian,personality,1,0.65
+Men,Norwegian,personality,2,0.17
+Men,Norwegian,personality,3,0.06
+Men,Norwegian,personality,4,0.06
+Men,Norwegian,personality,5,0.02
+Men,Norwegian,personality,6,0.03
+Men,Arabian,shared interests,1,0.15
+Men,Norwegian,humor,1,0.05
+Men,Norwegian,humor,2,0.28
+Men,Norwegian,humor,3,0.3
+Men,Norwegian,humor,4,0.18
+Men,Norwegian,humor,5,0.17
+Men,Norwegian,humor,6,0.01
+Men,Norwegian,intelligence,1,0.06
+Men,Norwegian,intelligence,2,0.15
+Men,Norwegian,intelligence,3,0.23
+Men,Norwegian,intelligence,4,0.27
+Men,Arabian,shared interests,2,0.19
+Men,Norwegian,intelligence,5,0.24
+Men,Norwegian,intelligence,6,0.04
+Men,Norwegian,money,1,0.01
+Men,Norwegian,money,2,0.01
+Men,Norwegian,money,3,0.03
+Men,Norwegian,money,4,0.05
+Men,Norwegian,money,5,0.11
+Men,Norwegian,money,6,0.79
+Men,Norwegian,shared interests,1,0.08
+Men,Norwegian,shared interests,2,0.22
+Men,Arabian,shared interests,3,0.13
+Men,Norwegian,shared interests,3,0.17
+Men,Norwegian,shared interests,4,0.24
+Men,Norwegian,shared interests,5,0.21
+Men,Norwegian,shared interests,6,0.07
+Women,Norwegian,looks,1,0.05
+Women,Norwegian,looks,2,0.09
+Women,Norwegian,looks,3,0.1
+Women,Norwegian,looks,4,0.22
+Women,Norwegian,looks,5,0.37
+Women,Norwegian,looks,6,0.17
+Men,Arabian,shared interests,4,0.15
+Women,Norwegian,personality,1,0.66
+Women,Norwegian,personality,2,0.2
+Women,Norwegian,personality,3,0.07
+Women,Norwegian,personality,4,0.05
+Women,Norwegian,personality,5,0.01
+Women,Norwegian,personality,6,0.01
+Women,Norwegian,humor,1,0.14
+Women,Norwegian,humor,2,0.34
+Women,Norwegian,humor,3,0.29
+Women,Norwegian,humor,4,0.12
+Men,Arabian,shared interests,5,0.25
+Women,Norwegian,humor,5,0.08
+Women,Norwegian,humor,6,0.03
+Women,Norwegian,intelligence,1,0.05
+Women,Norwegian,intelligence,2,0.16
+Women,Norwegian,intelligence,3,0.25
+Women,Norwegian,intelligence,4,0.34
+Women,Norwegian,intelligence,5,0.17
+Women,Norwegian,intelligence,6,0.03
+Women,Norwegian,money,1,0.01
+Women,Norwegian,money,2,0.01
+Men,Arabian,shared interests,6,0.13
+Women,Norwegian,money,3,0.04
+Women,Norwegian,money,4,0.05
+Women,Norwegian,money,5,0.2
+Women,Norwegian,money,6,0.69
+Women,Norwegian,shared interests,1,0.1
+Women,Norwegian,shared interests,2,0.21
+Women,Norwegian,shared interests,3,0.25
+Women,Norwegian,shared interests,4,0.21
+Women,Norwegian,shared interests,5,0.16
+Women,Norwegian,shared interests,6,0.07
+Women,Arabian,looks,1,0.11
+Men,Singaporean,looks,1,0.2
+Men,Singaporean,looks,2,0.18
+Men,Singaporean,looks,3,0.16
+Men,Singaporean,looks,4,0.17
+Men,Singaporean,looks,5,0.2
+Men,Singaporean,looks,6,0.08
+Men,Singaporean,personality,1,0.49
+Men,Singaporean,personality,2,0.23
+Men,Singaporean,personality,3,0.14
+Men,Singaporean,personality,4,0.07
+Women,Arabian,looks,2,0.1
+Men,Singaporean,personality,5,0.04
+Men,Singaporean,personality,6,0.03
+Men,Singaporean,humor,1,0.08
+Men,Singaporean,humor,2,0.19
+Men,Singaporean,humor,3,0.24
+Men,Singaporean,humor,4,0.23
+Men,Singaporean,humor,5,0.17
+Men,Singaporean,humor,6,0.09
+Men,Singaporean,intelligence,1,0.09
+Men,Singaporean,intelligence,2,0.13
+Men,American,personality,6,0.05
+Women,Arabian,looks,3,0.13
+Men,Singaporean,intelligence,3,0.24
+Men,Singaporean,intelligence,4,0.24
+Men,Singaporean,intelligence,5,0.24
+Men,Singaporean,intelligence,6,0.06
+Men,Singaporean,money,1,0.02
+Men,Singaporean,money,2,0.04
+Men,Singaporean,money,3,0.07
+Men,Singaporean,money,4,0.09
+Men,Singaporean,money,5,0.17
+Men,Singaporean,money,6,0.61
+Women,Arabian,looks,4,0.17
+Men,Singaporean,shared interests,1,0.11
+Men,Singaporean,shared interests,2,0.23
+Men,Singaporean,shared interests,3,0.14
+Men,Singaporean,shared interests,4,0.21
+Men,Singaporean,shared interests,5,0.19
+Men,Singaporean,shared interests,6,0.12
+Women,Singaporean,looks,1,0.09
+Women,Singaporean,looks,2,0.06
+Women,Singaporean,looks,3,0.09
+Women,Singaporean,looks,4,0.14
+Women,Arabian,looks,5,0.3
+Women,Singaporean,looks,5,0.23
+Women,Singaporean,looks,6,0.4
+Women,Singaporean,personality,1,0.5
+Women,Singaporean,personality,2,0.21
+Women,Singaporean,personality,3,0.13
+Women,Singaporean,personality,4,0.09
+Women,Singaporean,personality,5,0.04
+Women,Singaporean,personality,6,0.03
+Women,Singaporean,humor,1,0.16
+Women,Singaporean,humor,2,0.28
+Women,Arabian,looks,6,0.19
+Women,Singaporean,humor,3,0.23
+Women,Singaporean,humor,4,0.16
+Women,Singaporean,humor,5,0.1
+Women,Singaporean,humor,6,0.07
+Women,Singaporean,intelligence,1,0.12
+Women,Singaporean,intelligence,2,0.16
+Women,Singaporean,intelligence,3,0.21
+Women,Singaporean,intelligence,4,0.26
+Women,Singaporean,intelligence,5,0.19
+Women,Singaporean,intelligence,6,0.08
+Women,Arabian,personality,1,0.45
+Women,Singaporean,money,1,0.03
+Women,Singaporean,money,2,0.07
+Women,Singaporean,money,3,0.13
+Women,Singaporean,money,4,0.16
+Women,Singaporean,money,5,0.3
+Women,Singaporean,money,6,0.3
+Women,Singaporean,shared interests,1,0.1
+Women,Singaporean,shared interests,2,0.23
+Women,Singaporean,shared interests,3,0.22
+Women,Singaporean,shared interests,4,0.19
+Women,Arabian,personality,2,0.2
+Women,Singaporean,shared interests,5,0.14
+Women,Singaporean,shared interests,6,0.13
+Men,Swedish,looks,1,0.14
+Men,Swedish,looks,2,0.12
+Men,Swedish,looks,3,0.23
+Men,Swedish,looks,4,0.18
+Men,Swedish,looks,5,0.27
+Men,Swedish,looks,6,0.04
+Men,Swedish,personality,1,0.62
+Men,Swedish,personality,2,0.2
+Women,Arabian,personality,3,0.14
+Men,Swedish,personality,3,0.07
+Men,Swedish,personality,4,0.05
+Men,Swedish,personality,5,0.04
+Men,Swedish,personality,6,0.03
+Men,Swedish,humor,1,0.09
+Men,Swedish,humor,2,0.29
+Men,Swedish,humor,3,0.25
+Men,Swedish,humor,4,0.22
+Men,Swedish,humor,5,0.11
+Men,Swedish,humor,6,0.04
+Women,Arabian,personality,4,0.08
+Men,Swedish,intelligence,1,0.08
+Men,Swedish,intelligence,2,0.21
+Men,Swedish,intelligence,3,0.23
+Men,Swedish,intelligence,4,0.27
+Men,Swedish,intelligence,5,0.17
+Men,Swedish,intelligence,6,0.05
+Men,Swedish,money,1,0
+Men,Swedish,money,2,0.01
+Men,Swedish,money,3,0.05
+Men,Swedish,money,4,0.04
+Women,Arabian,personality,5,0.09
+Men,Swedish,money,5,0.12
+Men,Swedish,money,6,0.77
+Men,Swedish,shared interests,1,0.08
+Men,Swedish,shared interests,2,0.16
+Men,Swedish,shared interests,3,0.18
+Men,Swedish,shared interests,4,0.23
+Men,Swedish,shared interests,5,0.29
+Men,Swedish,shared interests,6,0.06
+Women,Swedish,looks,1,0.05
+Women,Swedish,looks,2,0.1
+Women,Arabian,personality,6,0.05
+Women,Swedish,looks,3,0.11
+Women,Swedish,looks,4,0.21
+Women,Swedish,looks,5,0.4
+Women,Swedish,looks,6,0.13
+Women,Swedish,personality,1,0.73
+Women,Swedish,personality,2,0.13
+Women,Swedish,personality,3,0.07
+Women,Swedish,personality,4,0.05
+Women,Swedish,personality,5,0.02
+Women,Swedish,personality,6,0.01
+Men,American,humor,1,0.09
+Women,Arabian,humor,1,0.06
+Women,Swedish,humor,1,0.08
+Women,Swedish,humor,2,0.37
+Women,Swedish,humor,3,0.26
+Women,Swedish,humor,4,0.19
+Women,Swedish,humor,5,0.07
+Women,Swedish,humor,6,0.03
+Women,Swedish,intelligence,1,0.07
+Women,Swedish,intelligence,2,0.18
+Women,Swedish,intelligence,3,0.28
+Women,Swedish,intelligence,4,0.28
+Women,Arabian,humor,2,0.16
+Women,Swedish,intelligence,5,0.17
+Women,Swedish,intelligence,6,0.02
+Women,Swedish,money,1,0
+Women,Swedish,money,2,0.01
+Women,Swedish,money,3,0.02
+Women,Swedish,money,4,0.05
+Women,Swedish,money,5,0.16
+Women,Swedish,money,6,0.76
+Women,Swedish,shared interests,1,0.08
+Women,Swedish,shared interests,2,0.22
+Women,Arabian,humor,3,0.19
+Women,Swedish,shared interests,3,0.26
+Women,Swedish,shared interests,4,0.22
+Women,Swedish,shared interests,5,0.18
+Women,Swedish,shared interests,6,0.05
+Men,Thai,looks,1,0.33
+Men,Thai,looks,2,0.2
+Men,Thai,looks,3,0.2
+Men,Thai,looks,4,0.15
+Men,Thai,looks,5,0.08
+Men,Thai,looks,6,0.05
+Women,Arabian,humor,4,0.24
+Men,Thai,personality,1,0.34
+Men,Thai,personality,2,0.26
+Men,Thai,personality,3,0.15
+Men,Thai,personality,4,0.13
+Men,Thai,personality,5,0.07
+Men,Thai,personality,6,0.04
+Men,Thai,humor,1,0.12
+Men,Thai,humor,2,0.22
+Men,Thai,humor,3,0.24
+Men,Thai,humor,4,0.22
+Women,Arabian,humor,5,0.19
+Men,Thai,humor,5,0.11
+Men,Thai,humor,6,0.1
+Men,Thai,intelligence,1,0.12
+Men,Thai,intelligence,2,0.22
+Men,Thai,intelligence,3,0.28
+Men,Thai,intelligence,4,0.25
+Men,Thai,intelligence,5,0.08
+Men,Thai,intelligence,6,0.05
+Men,Thai,money,1,0.02
+Men,Thai,money,2,0.04
+Women,Arabian,humor,6,0.16
+Men,Thai,money,3,0.08
+Men,Thai,money,4,0.09
+Men,Thai,money,5,0.29
+Men,Thai,money,6,0.47
+Men,Thai,shared interests,1,0.07
+Men,Thai,shared interests,2,0.06
+Men,Thai,shared interests,3,0.06
+Men,Thai,shared interests,4,0.16
+Men,Thai,shared interests,5,0.37
+Men,Thai,shared interests,6,0.29
+Women,Arabian,intelligence,1,0.15
+Women,Thai,looks,1,0.2
+Women,Thai,looks,2,0.15
+Women,Thai,looks,3,0.19
+Women,Thai,looks,4,0.18
+Women,Thai,looks,5,0.13
+Women,Thai,looks,6,0.14
+Women,Thai,personality,1,0.33
+Women,Thai,personality,2,0.18
+Women,Thai,personality,3,0.14
+Women,Thai,personality,4,0.17
+Women,Arabian,intelligence,2,0.25
+Women,Thai,personality,5,0.13
+Women,Thai,personality,6,0.06
+Women,Thai,humor,1,0.15
+Women,Thai,humor,2,0.21
+Women,Thai,humor,3,0.19
+Women,Thai,humor,4,0.18
+Women,Thai,humor,5,0.16
+Women,Thai,humor,6,0.11
+Women,Thai,intelligence,1,0.13
+Women,Thai,intelligence,2,0.24
+Women,Arabian,intelligence,3,0.22
+Women,Thai,intelligence,3,0.25
+Women,Thai,intelligence,4,0.2
+Women,Thai,intelligence,5,0.12
+Women,Thai,intelligence,6,0.07
+Women,Thai,money,1,0.04
+Women,Thai,money,2,0.11
+Women,Thai,money,3,0.11
+Women,Thai,money,4,0.12
+Women,Thai,money,5,0.23
+Women,Thai,money,6,0.4
+Women,Arabian,intelligence,4,0.17
+Women,Thai,shared interests,1,0.16
+Women,Thai,shared interests,2,0.11
+Women,Thai,shared interests,3,0.13
+Women,Thai,shared interests,4,0.15
+Women,Thai,shared interests,5,0.24
+Women,Thai,shared interests,6,0.22
+Men,UAE,looks,1,0.28
+Men,UAE,looks,2,0.19
+Men,UAE,looks,3,0.14
+Men,UAE,looks,4,0.13
+Men,American,humor,2,0.23
+Women,Arabian,intelligence,5,0.11
+Men,UAE,looks,5,0.19
+Men,UAE,looks,6,0.06
+Men,UAE,personality,1,0.34
+Men,UAE,personality,2,0.21
+Men,UAE,personality,3,0.18
+Men,UAE,personality,4,0.11
+Men,UAE,personality,5,0.09
+Men,UAE,personality,6,0.06
+Men,UAE,humor,1,0.08
+Men,UAE,humor,2,0.17
+Women,Arabian,intelligence,6,0.1
+Men,UAE,humor,3,0.21
+Men,UAE,humor,4,0.25
+Men,UAE,humor,5,0.2
+Men,UAE,humor,6,0.09
+Men,UAE,intelligence,1,0.14
+Men,UAE,intelligence,2,0.23
+Men,UAE,intelligence,3,0.23
+Men,UAE,intelligence,4,0.22
+Men,UAE,intelligence,5,0.13
+Men,UAE,intelligence,6,0.05
+Women,Arabian,money,1,0.04
+Men,UAE,money,1,0.03
+Men,UAE,money,2,0.06
+Men,UAE,money,3,0.07
+Men,UAE,money,4,0.08
+Men,UAE,money,5,0.16
+Men,UAE,money,6,0.6
+Men,UAE,shared interests,1,0.12
+Men,UAE,shared interests,2,0.15
+Men,UAE,shared interests,3,0.16
+Men,UAE,shared interests,4,0.21
+Women,Arabian,money,2,0.09
+Men,UAE,shared interests,5,0.23
+Men,UAE,shared interests,6,0.13
+Women,UAE,looks,1,0.12
+Women,UAE,looks,2,0.11
+Women,UAE,looks,3,0.11
+Women,UAE,looks,4,0.19
+Women,UAE,looks,5,0.23
+Women,UAE,looks,6,0.25
+Women,UAE,personality,1,0.43
+Women,UAE,personality,2,0.18
+Women,Arabian,money,3,0.14
+Women,UAE,personality,3,0.14
+Women,UAE,personality,4,0.1
+Women,UAE,personality,5,0.11
+Women,UAE,personality,6,0.04
+Women,UAE,humor,1,0.15
+Women,UAE,humor,2,0.22
+Women,UAE,humor,3,0.23
+Women,UAE,humor,4,0.17
+Women,UAE,humor,5,0.13
+Women,UAE,humor,6,0.09
+Women,Arabian,money,4,0.14
+Women,UAE,intelligence,1,0.15
+Women,UAE,intelligence,2,0.21
+Women,UAE,intelligence,3,0.23
+Women,UAE,intelligence,4,0.2
+Women,UAE,intelligence,5,0.14
+Women,UAE,intelligence,6,0.06
+Women,UAE,money,1,0.03
+Women,UAE,money,2,0.1
+Women,UAE,money,3,0.1
+Women,UAE,money,4,0.15
+Women,Arabian,money,5,0.22
+Women,UAE,money,5,0.19
+Women,UAE,money,6,0.43
+Women,UAE,shared interests,1,0.12
+Women,UAE,shared interests,2,0.18
+Women,UAE,shared interests,3,0.19
+Women,UAE,shared interests,4,0.18
+Women,UAE,shared interests,5,0.2
+Women,UAE,shared interests,6,0.13
+Men,Vietnamese,looks,1,0.44
+Men,Vietnamese,looks,2,0.18
+Women,Arabian,money,6,0.37
+Men,Vietnamese,looks,3,0.14
+Men,Vietnamese,looks,4,0.1
+Men,Vietnamese,looks,5,0.09
+Men,Vietnamese,looks,6,0.05
+Men,Vietnamese,personality,1,0.32
+Men,Vietnamese,personality,2,0.3
+Men,Vietnamese,personality,3,0.16
+Men,Vietnamese,personality,4,0.11
+Men,Vietnamese,personality,5,0.07
+Men,Vietnamese,personality,6,0.05
+Women,Arabian,shared interests,1,0.19
+Men,Vietnamese,humor,1,0.04
+Men,Vietnamese,humor,2,0.13
+Men,Vietnamese,humor,3,0.2
+Men,Vietnamese,humor,4,0.25
+Men,Vietnamese,humor,5,0.24
+Men,Vietnamese,humor,6,0.14
+Men,Vietnamese,intelligence,1,0.11
+Men,Vietnamese,intelligence,2,0.2
+Men,Vietnamese,intelligence,3,0.25
+Men,Vietnamese,intelligence,4,0.22
+Women,Arabian,shared interests,2,0.21
+Men,Vietnamese,intelligence,5,0.17
+Men,Vietnamese,intelligence,6,0.06
+Men,Vietnamese,money,1,0.01
+Men,Vietnamese,money,2,0.03
+Men,Vietnamese,money,3,0.07
+Men,Vietnamese,money,4,0.11
+Men,Vietnamese,money,5,0.22
+Men,Vietnamese,money,6,0.55
+Men,Vietnamese,shared interests,1,0.08
+Men,Vietnamese,shared interests,2,0.16
+Men,American,humor,3,0.25
+Women,Arabian,shared interests,3,0.17
+Men,Vietnamese,shared interests,3,0.18
+Men,Vietnamese,shared interests,4,0.22
+Men,Vietnamese,shared interests,5,0.21
+Men,Vietnamese,shared interests,6,0.15
+Women,Vietnamese,looks,1,0.21
+Women,Vietnamese,looks,2,0.13
+Women,Vietnamese,looks,3,0.15
+Women,Vietnamese,looks,4,0.12
+Women,Vietnamese,looks,5,0.18
+Women,Vietnamese,looks,6,0.21
+Women,Arabian,shared interests,4,0.2
+Women,Vietnamese,personality,1,0.33
+Women,Vietnamese,personality,2,0.23
+Women,Vietnamese,personality,3,0.17
+Women,Vietnamese,personality,4,0.11
+Women,Vietnamese,personality,5,0.1
+Women,Vietnamese,personality,6,0.06
+Women,Vietnamese,humor,1,0.11
+Women,Vietnamese,humor,2,0.19
+Women,Vietnamese,humor,3,0.16
+Women,Vietnamese,humor,4,0.18
+Women,Arabian,shared interests,5,0.09
+Women,Vietnamese,humor,5,0.2
+Women,Vietnamese,humor,6,0.16
+Women,Vietnamese,intelligence,1,0.19
+Women,Vietnamese,intelligence,2,0.21
+Women,Vietnamese,intelligence,3,0.2
+Women,Vietnamese,intelligence,4,0.21
+Women,Vietnamese,intelligence,5,0.11
+Women,Vietnamese,intelligence,6,0.07
+Women,Vietnamese,money,1,0.05
+Women,Vietnamese,money,2,0.1
+Women,Arabian,shared interests,6,0.14
+Women,Vietnamese,money,3,0.17
+Women,Vietnamese,money,4,0.18
+Women,Vietnamese,money,5,0.21
+Women,Vietnamese,money,6,0.28
+Women,Vietnamese,shared interests,1,0.1
+Women,Vietnamese,shared interests,2,0.14
+Women,Vietnamese,shared interests,3,0.14
+Women,Vietnamese,shared interests,4,0.19
+Women,Vietnamese,shared interests,5,0.2
+Women,Vietnamese,shared interests,6,0.22
+Men,Australian,looks,1,0.18
+Men,Australian,looks,2,0.13
+Men,Australian,looks,3,0.17
+Men,Australian,looks,4,0.19
+Men,Australian,looks,5,0.26
+Men,Australian,looks,6,0.08
+Men,American,humor,4,0.26
+Men,Australian,personality,1,0.42
+Men,Australian,personality,2,0.23
+Men,Australian,personality,3,0.15
+Men,Australian,personality,4,0.09
+Men,Australian,personality,5,0.07
+Men,Australian,personality,6,0.03
+Men,Australian,humor,1,0.1
+Men,Australian,humor,2,0.27
+Men,Australian,humor,3,0.27
+Men,Australian,humor,4,0.18
+Men,American,humor,5,0.13
+Men,Australian,humor,5,0.14
+Men,Australian,humor,6,0.03
+Men,Australian,intelligence,1,0.14
+Men,Australian,intelligence,2,0.16
+Men,Australian,intelligence,3,0.2
+Men,Australian,intelligence,4,0.25
+Men,Australian,intelligence,5,0.18
+Men,Australian,intelligence,6,0.06
+Men,Australian,money,1,0.02
+Men,Australian,money,2,0.03
+Men,American,humor,6,0.05
+Men,Australian,money,3,0.05
+Men,Australian,money,4,0.06
+Men,Australian,money,5,0.13
+Men,Australian,money,6,0.7
+Men,Australian,shared interests,1,0.13
+Men,Australian,shared interests,2,0.18
+Men,Australian,shared interests,3,0.15
+Men,Australian,shared interests,4,0.22
+Men,Australian,shared interests,5,0.22
+Men,Australian,shared interests,6,0.09
+Men,American,intelligence,1,0.13
+Women,Australian,looks,1,0.1
+Women,Australian,looks,2,0.07
+Women,Australian,looks,3,0.16
+Women,Australian,looks,4,0.12
+Women,Australian,looks,5,0.37
+Women,Australian,looks,6,0.19
+Women,Australian,personality,1,0.49
+Women,Australian,personality,2,0.24
+Women,Australian,personality,3,0.14
+Women,Australian,personality,4,0.08
+Men,American,intelligence,2,0.18
+Women,Australian,personality,5,0.04
+Women,Australian,personality,6,0.02
+Women,Australian,humor,1,0.15
+Women,Australian,humor,2,0.32
+Women,Australian,humor,3,0.24
+Women,Australian,humor,4,0.16
+Women,Australian,humor,5,0.08
+Women,Australian,humor,6,0.05
+Women,Australian,intelligence,1,0.1
+Women,Australian,intelligence,2,0.19
+Men,American,looks,3,0.16
+Men,American,intelligence,3,0.22
+Women,Australian,intelligence,3,0.2
+Women,Australian,intelligence,4,0.27
+Women,Australian,intelligence,5,0.19
+Women,Australian,intelligence,6,0.05
+Women,Australian,money,1,0.01
+Women,Australian,money,2,0.03
+Women,Australian,money,3,0.07
+Women,Australian,money,4,0.11
+Women,Australian,money,5,0.2
+Women,Australian,money,6,0.59
+Men,American,intelligence,4,0.22
+Women,Australian,shared interests,1,0.15
+Women,Australian,shared interests,2,0.15
+Women,Australian,shared interests,3,0.2
+Women,Australian,shared interests,4,0.25
+Women,Australian,shared interests,5,0.14
+Women,Australian,shared interests,6,0.11
+Men,British,looks,1,0.14
+Men,British,looks,2,0.15
+Men,British,looks,3,0.18
+Men,British,looks,4,0.2
+Men,American,intelligence,5,0.2
+Men,British,looks,5,0.27
+Men,British,looks,6,0.06
+Men,British,personality,1,0.52
+Men,British,personality,2,0.23
+Men,British,personality,3,0.14
+Men,British,personality,4,0.05
+Men,British,personality,5,0.04
+Men,British,personality,6,0.02
+Men,British,humor,1,0.13
+Men,British,humor,2,0.32
+Men,American,intelligence,6,0.04
+Men,British,humor,3,0.25
+Men,British,humor,4,0.21
+Men,British,humor,5,0.08
+Men,British,humor,6,0.02
+Men,British,intelligence,1,0.1
+Men,British,intelligence,2,0.13
+Men,British,intelligence,3,0.22
+Men,British,intelligence,4,0.26
+Men,British,intelligence,5,0.27
+Men,British,intelligence,6,0.02
+Men,American,money,1,0.02
+Men,British,money,1,0.01
+Men,British,money,2,0.02
+Men,British,money,3,0.02
+Men,British,money,4,0.02
+Men,British,money,5,0.09
+Men,British,money,6,0.85
+Men,British,shared interests,1,0.1
+Men,British,shared interests,2,0.16
+Men,British,shared interests,3,0.2
+Men,British,shared interests,4,0.25
+Men,American,money,2,0.04
+Men,British,shared interests,5,0.26
+Men,British,shared interests,6,0.03
+Women,British,looks,1,0.05
+Women,British,looks,2,0.06
+Women,British,looks,3,0.09
+Women,British,looks,4,0.17
+Women,British,looks,5,0.41
+Women,British,looks,6,0.21
+Women,British,personality,1,0.52
+Women,British,personality,2,0.25
+Men,American,money,3,0.06
+Women,British,personality,3,0.16
+Women,British,personality,4,0.05
+Women,British,personality,5,0.02
+Women,British,personality,6,0.01
+Women,British,humor,1,0.21
+Women,British,humor,2,0.33
+Women,British,humor,3,0.24
+Women,British,humor,4,0.14
+Women,British,humor,5,0.07
+Women,British,humor,6,0.01
+Men,American,money,4,0.06
+Women,British,intelligence,1,0.08
+Women,British,intelligence,2,0.14
+Women,British,intelligence,3,0.2
+Women,British,intelligence,4,0.39
+Women,British,intelligence,5,0.16
+Women,British,intelligence,6,0.04
+Women,British,money,1,0.01
+Women,British,money,2,0.02
+Women,British,money,3,0.03
+Women,British,money,4,0.05
+Men,American,money,5,0.15
+Women,British,money,5,0.22
+Women,British,money,6,0.67
+Women,British,shared interests,1,0.13
+Women,British,shared interests,2,0.21
+Women,British,shared interests,3,0.28
+Women,British,shared interests,4,0.2
+Women,British,shared interests,5,0.13
+Women,British,shared interests,6,0.06
+Men,Danish,looks,1,0.11
+Men,Danish,looks,2,0.16
+Men,American,money,6,0.68
+Men,Danish,looks,3,0.18
+Men,Danish,looks,4,0.22
+Men,Danish,looks,5,0.28
+Men,Danish,looks,6,0.05
+Men,Danish,personality,1,0.68
+Men,Danish,personality,2,0.18
+Men,Danish,personality,3,0.08
+Men,Danish,personality,4,0.03
+Men,Danish,personality,5,0.02
+Men,Danish,personality,6,0.01
+Men,American,looks,4,0.19
+Men,American,shared interests,1,0.17
+Men,Danish,humor,1,0.08
+Men,Danish,humor,2,0.37
+Men,Danish,humor,3,0.25
+Men,Danish,humor,4,0.19
+Men,Danish,humor,5,0.09
+Men,Danish,humor,6,0.02
+Men,Danish,intelligence,1,0.09
+Men,Danish,intelligence,2,0.15
+Men,Danish,intelligence,3,0.31
+Men,Danish,intelligence,4,0.28
+Men,American,shared interests,2,0.18
+Men,Danish,intelligence,5,0.14
+Men,Danish,intelligence,6,0.02
+Men,Danish,money,1,0
+Men,Danish,money,2,0.01
+Men,Danish,money,3,0.03
+Men,Danish,money,4,0.03
+Men,Danish,money,5,0.11
+Men,Danish,money,6,0.81
+Men,Danish,shared interests,1,0.04
+Men,Danish,shared interests,2,0.12
+Men,American,shared interests,3,0.16
+Men,Danish,shared interests,3,0.15
+Men,Danish,shared interests,4,0.25
+Men,Danish,shared interests,5,0.35
+Men,Danish,shared interests,6,0.08
+Women,Danish,looks,1,0.05
+Women,Danish,looks,2,0.06
+Women,Danish,looks,3,0.11
+Women,Danish,looks,4,0.19
+Women,Danish,looks,5,0.44
+Women,Danish,looks,6,0.16
+Men,American,shared interests,4,0.19
+Women,Danish,personality,1,0.69
+Women,Danish,personality,2,0.17
+Women,Danish,personality,3,0.1
+Women,Danish,personality,4,0.02
+Women,Danish,personality,5,0.01
+Women,Danish,personality,6,0.01
+Women,Danish,humor,1,0.14
+Women,Danish,humor,2,0.45
+Women,Danish,humor,3,0.25
+Women,Danish,humor,4,0.11
+Men,American,shared interests,5,0.21
+Women,Danish,humor,5,0.03
+Women,Danish,humor,6,0.01
+Women,Danish,intelligence,1,0.07
+Women,Danish,intelligence,2,0.19
+Women,Danish,intelligence,3,0.31
+Women,Danish,intelligence,4,0.29
+Women,Danish,intelligence,5,0.12
+Women,Danish,intelligence,6,0.02
+Women,Danish,money,1,0
+Women,Danish,money,2,0.02
+Men,American,shared interests,6,0.09
+Women,Danish,money,3,0.02
+Women,Danish,money,4,0.04
+Women,Danish,money,5,0.2
+Women,Danish,money,6,0.72
+Women,Danish,shared interests,1,0.05
+Women,Danish,shared interests,2,0.12
+Women,Danish,shared interests,3,0.21
+Women,Danish,shared interests,4,0.34
+Women,Danish,shared interests,5,0.2
+Women,Danish,shared interests,6,0.08
+Women,American,looks,1,0.1
+Men,Egyptian,looks,1,0.31
+Men,Egyptian,looks,2,0.19
+Men,Egyptian,looks,3,0.18
+Men,Egyptian,looks,4,0.13
+Men,Egyptian,looks,5,0.15
+Men,Egyptian,looks,6,0.03
+Men,Egyptian,personality,1,0.36
+Men,Egyptian,personality,2,0.23
+Men,Egyptian,personality,3,0.17
+Men,Egyptian,personality,4,0.12
+Women,American,looks,2,0.07
+Men,Egyptian,personality,5,0.07
+Men,Egyptian,personality,6,0.05
+Men,Egyptian,humor,1,0.06
+Men,Egyptian,humor,2,0.16
+Men,Egyptian,humor,3,0.16
+Men,Egyptian,humor,4,0.27
+Men,Egyptian,humor,5,0.27
+Men,Egyptian,humor,6,0.07
+Men,Egyptian,intelligence,1,0.15
+Men,Egyptian,intelligence,2,0.24
+Women,American,looks,3,0.06
+Men,Egyptian,intelligence,3,0.25
+Men,Egyptian,intelligence,4,0.22
+Men,Egyptian,intelligence,5,0.11
+Men,Egyptian,intelligence,6,0.03
+Men,Egyptian,money,1,0.01
+Men,Egyptian,money,2,0.03
+Men,Egyptian,money,3,0.05
+Men,Egyptian,money,4,0.05
+Men,Egyptian,money,5,0.13
+Men,Egyptian,money,6,0.72
+Women,American,looks,4,0.13
+Men,Egyptian,shared interests,1,0.11
+Men,Egyptian,shared interests,2,0.14
+Men,Egyptian,shared interests,3,0.19
+Men,Egyptian,shared interests,4,0.21
+Men,Egyptian,shared interests,5,0.26
+Men,Egyptian,shared interests,6,0.09
+Women,Egyptian,looks,1,0.12
+Women,Egyptian,looks,2,0.09
+Women,Egyptian,looks,3,0.13
+Women,Egyptian,looks,4,0.2
+Men,American,looks,5,0.25
+Women,American,looks,5,0.34
+Women,Egyptian,looks,5,0.27
+Women,Egyptian,looks,6,0.2
+Women,Egyptian,personality,1,0.53
+Women,Egyptian,personality,2,0.21
+Women,Egyptian,personality,3,0.11
+Women,Egyptian,personality,4,0.07
+Women,Egyptian,personality,5,0.06
+Women,Egyptian,personality,6,0.02
+Women,Egyptian,humor,1,0.06
+Women,Egyptian,humor,2,0.17
+Women,American,looks,6,0.29
+Women,Egyptian,humor,3,0.17
+Women,Egyptian,humor,4,0.27
+Women,Egyptian,humor,5,0.21
+Women,Egyptian,humor,6,0.11
+Women,Egyptian,intelligence,1,0.13
+Women,Egyptian,intelligence,2,0.29
+Women,Egyptian,intelligence,3,0.27
+Women,Egyptian,intelligence,4,0.16
+Women,Egyptian,intelligence,5,0.1
+Women,Egyptian,intelligence,6,0.05
+Women,American,personality,1,0.38
+Women,Egyptian,money,1,0.01
+Women,Egyptian,money,2,0.05
+Women,Egyptian,money,3,0.1
+Women,Egyptian,money,4,0.14
+Women,Egyptian,money,5,0.22
+Women,Egyptian,money,6,0.48
+Women,Egyptian,shared interests,1,0.14
+Women,Egyptian,shared interests,2,0.19
+Women,Egyptian,shared interests,3,0.23
+Women,Egyptian,shared interests,4,0.16
+Women,American,personality,2,0.26
+Women,Egyptian,shared interests,5,0.15
+Women,Egyptian,shared interests,6,0.13
+Men,Filipino,looks,1,0.2
+Men,Filipino,looks,2,0.16
+Men,Filipino,looks,3,0.15
+Men,Filipino,looks,4,0.17
+Men,Filipino,looks,5,0.2
+Men,Filipino,looks,6,0.12
+Men,Filipino,personality,1,0.39
+Men,Filipino,personality,2,0.25
+Women,American,personality,3,0.2
+Men,Filipino,personality,3,0.17
+Men,Filipino,personality,4,0.1
+Men,Filipino,personality,5,0.06
+Men,Filipino,personality,6,0.03
+Men,Filipino,humor,1,0.1
+Men,Filipino,humor,2,0.21
+Men,Filipino,humor,3,0.21
+Men,Filipino,humor,4,0.22
+Men,Filipino,humor,5,0.18
+Men,Filipino,humor,6,0.08
+Women,American,personality,4,0.09
+Men,Filipino,intelligence,1,0.16
+Men,Filipino,intelligence,2,0.2
+Men,Filipino,intelligence,3,0.23
+Men,Filipino,intelligence,4,0.23
+Men,Filipino,intelligence,5,0.15
+Men,Filipino,intelligence,6,0.03
+Men,Filipino,money,1,0.02
+Men,Filipino,money,2,0.03
+Men,Filipino,money,3,0.07
+Men,Filipino,money,4,0.09
+Women,American,personality,5,0.04
+Men,Filipino,money,5,0.18
+Men,Filipino,money,6,0.61
+Men,Filipino,shared interests,1,0.13
+Men,Filipino,shared interests,2,0.16
+Men,Filipino,shared interests,3,0.15
+Men,Filipino,shared interests,4,0.19
+Men,Filipino,shared interests,5,0.23
+Men,Filipino,shared interests,6,0.13
+Women,Filipino,looks,1,0.08
+Women,Filipino,looks,2,0.09
+Women,American,personality,6,0.03
+Women,Filipino,looks,3,0.11
+Women,Filipino,looks,4,0.13
+Women,Filipino,looks,5,0.26
+Women,Filipino,looks,6,0.33
+Women,Filipino,personality,1,0.41
+Women,Filipino,personality,2,0.19
+Women,Filipino,personality,3,0.19
+Women,Filipino,personality,4,0.1
+Women,Filipino,personality,5,0.07
+Women,Filipino,personality,6,0.03
+Women,American,humor,1,0.13
+Women,Filipino,humor,1,0.16
+Women,Filipino,humor,2,0.26
+Women,Filipino,humor,3,0.21
+Women,Filipino,humor,4,0.16
+Women,Filipino,humor,5,0.12
+Women,Filipino,humor,6,0.09
+Women,Filipino,intelligence,1,0.17
+Women,Filipino,intelligence,2,0.17
+Women,Filipino,intelligence,3,0.21
+Women,Filipino,intelligence,4,0.24
+Women,American,humor,2,0.27
+Women,Filipino,intelligence,5,0.15
+Women,Filipino,intelligence,6,0.07
+Women,Filipino,money,1,0.04
+Women,Filipino,money,2,0.09
+Women,Filipino,money,3,0.12
+Women,Filipino,money,4,0.15
+Women,Filipino,money,5,0.24
+Women,Filipino,money,6,0.36
+Women,Filipino,shared interests,1,0.13
+Women,Filipino,shared interests,2,0.19
+Men,American,looks,6,0.09
+Women,American,humor,3,0.24
+Women,Filipino,shared interests,3,0.17
+Women,Filipino,shared interests,4,0.21
+Women,Filipino,shared interests,5,0.16
+Women,Filipino,shared interests,6,0.13
+Men,Finnish,looks,1,0.16
+Men,Finnish,looks,2,0.12
+Men,Finnish,looks,3,0.19
+Men,Finnish,looks,4,0.19
+Men,Finnish,looks,5,0.29
+Men,Finnish,looks,6,0.06
+Women,American,humor,4,0.18
+Men,Finnish,personality,1,0.55
+Men,Finnish,personality,2,0.23
+Men,Finnish,personality,3,0.1
+Men,Finnish,personality,4,0.07
+Men,Finnish,personality,5,0.03
+Men,Finnish,personality,6,0.01
+Men,Finnish,humor,1,0.11
+Men,Finnish,humor,2,0.31
+Men,Finnish,humor,3,0.25
+Men,Finnish,humor,4,0.2
+Women,American,humor,5,0.11
+Men,Finnish,humor,5,0.11
+Men,Finnish,humor,6,0.02
+Men,Finnish,intelligence,1,0.07
+Men,Finnish,intelligence,2,0.14
+Men,Finnish,intelligence,3,0.22
+Men,Finnish,intelligence,4,0.27
+Men,Finnish,intelligence,5,0.25
+Men,Finnish,intelligence,6,0.04
+Men,Finnish,money,1,0.01
+Men,Finnish,money,2,0.01
+Women,American,humor,6,0.07
+Men,Finnish,money,3,0.03
+Men,Finnish,money,4,0.03
+Men,Finnish,money,5,0.12
+Men,Finnish,money,6,0.8
+Men,Finnish,shared interests,1,0.1
+Men,Finnish,shared interests,2,0.19
+Men,Finnish,shared interests,3,0.2
+Men,Finnish,shared interests,4,0.24
+Men,Finnish,shared interests,5,0.2
+Men,Finnish,shared interests,6,0.07
+Women,American,intelligence,1,0.15
+Women,Finnish,looks,1,0.05
+Women,Finnish,looks,2,0.05
+Women,Finnish,looks,3,0.09
+Women,Finnish,looks,4,0.16
+Women,Finnish,looks,5,0.4
+Women,Finnish,looks,6,0.26
+Women,Finnish,personality,1,0.59
+Women,Finnish,personality,2,0.24
+Women,Finnish,personality,3,0.12
+Women,Finnish,personality,4,0.03
+Women,American,intelligence,2,0.19
+Women,Finnish,personality,5,0.01
+Women,Finnish,personality,6,0.01
+Women,Finnish,humor,1,0.14
+Women,Finnish,humor,2,0.32
+Women,Finnish,humor,3,0.28
+Women,Finnish,humor,4,0.18
+Women,Finnish,humor,5,0.06
+Women,Finnish,humor,6,0.03
+Women,Finnish,intelligence,1,0.07
+Women,Finnish,intelligence,2,0.14
+Women,American,intelligence,3,0.25
+Women,Finnish,intelligence,3,0.24
+Women,Finnish,intelligence,4,0.34
+Women,Finnish,intelligence,5,0.17
+Women,Finnish,intelligence,6,0.03
+Women,Finnish,money,1,0.01
+Women,Finnish,money,2,0.02
+Women,Finnish,money,3,0.03
+Women,Finnish,money,4,0.08
+Women,Finnish,money,5,0.24
+Women,Finnish,money,6,0.62
+Women,American,intelligence,4,0.28
+Women,Finnish,shared interests,1,0.15
+Women,Finnish,shared interests,2,0.23
+Women,Finnish,shared interests,3,0.24
+Women,Finnish,shared interests,4,0.21
+Women,Finnish,shared interests,5,0.11
+Women,Finnish,shared interests,6,0.05
+Men,French,looks,1,0.24
+Men,French,looks,2,0.16
+Men,French,looks,3,0.19
+Men,French,looks,4,0.17
+Women,American,intelligence,5,0.08
+Men,French,looks,5,0.2
+Men,French,looks,6,0.05
+Men,French,personality,1,0.39
+Men,French,personality,2,0.27
+Men,French,personality,3,0.13
+Men,French,personality,4,0.09
+Men,French,personality,5,0.07
+Men,French,personality,6,0.04
+Men,French,humor,1,0.12
+Men,French,humor,2,0.17
+Women,American,intelligence,6,0.04
+Men,French,humor,3,0.23
+Men,French,humor,4,0.25
+Men,French,humor,5,0.16
+Men,French,humor,6,0.06
+Men,French,intelligence,1,0.09
+Men,French,intelligence,2,0.19
+Men,French,intelligence,3,0.24
+Men,French,intelligence,4,0.22
+Men,French,intelligence,5,0.22
+Men,French,intelligence,6,0.05
+Men,American,personality,1,0.41
+Women,American,money,1,0.03
+Men,French,money,1,0.01
+Men,French,money,2,0.03
+Men,French,money,3,0.04
+Men,French,money,4,0.06
+Men,French,money,5,0.09
+Men,French,money,6,0.77
+Men,French,shared interests,1,0.16
+Men,French,shared interests,2,0.17
+Men,French,shared interests,3,0.17
+Men,French,shared interests,4,0.21
+Women,American,money,2,0.04
+Men,French,shared interests,5,0.26
+Men,French,shared interests,6,0.04
+Women,French,looks,1,0.11
+Women,French,looks,2,0.09
+Women,French,looks,3,0.11
+Women,French,looks,4,0.17
+Women,French,looks,5,0.35
+Women,French,looks,6,0.17
+Women,French,personality,1,0.42
+Women,French,personality,2,0.26
+Women,American,money,3,0.06
+Women,French,personality,3,0.17
+Women,French,personality,4,0.1
+Women,French,personality,5,0.04
+Women,French,personality,6,0.02
+Women,French,humor,1,0.17
+Women,French,humor,2,0.22
+Women,French,humor,3,0.3
+Women,French,humor,4,0.17
+Women,French,humor,5,0.1
+Women,French,humor,6,0.04
+Women,American,money,4,0.1
+Women,French,intelligence,1,0.09
+Women,French,intelligence,2,0.18
+Women,French,intelligence,3,0.2
+Women,French,intelligence,4,0.32
+Women,French,intelligence,5,0.18
+Women,French,intelligence,6,0.03
+Women,French,money,1,0.01
+Women,French,money,2,0.01
+Women,French,money,3,0.04
+Women,French,money,4,0.05
+Women,American,money,5,0.27
+Women,French,money,5,0.19
+Women,French,money,6,0.7
+Women,French,shared interests,1,0.19
+Women,French,shared interests,2,0.24
+Women,French,shared interests,3,0.19
+Women,French,shared interests,4,0.19
+Women,French,shared interests,5,0.14
+Women,French,shared interests,6,0.05
+Men,German,looks,1,0.17
+Men,German,looks,2,0.17
+Women,American,money,6,0.49
+Men,German,looks,3,0.14
+Men,German,looks,4,0.16
+Men,German,looks,5,0.26
+Men,German,looks,6,0.1
+Men,German,personality,1,0.51
+Men,German,personality,2,0.19
+Men,German,personality,3,0.13
+Men,German,personality,4,0.09
+Men,German,personality,5,0.06
+Men,German,personality,6,0.03
+Women,American,shared interests,1,0.2
+Men,German,humor,1,0.11
+Men,German,humor,2,0.25
+Men,German,humor,3,0.27
+Men,German,humor,4,0.2
+Men,German,humor,5,0.13
+Men,German,humor,6,0.04
+Men,German,intelligence,1,0.08
+Men,German,intelligence,2,0.17
+Men,German,intelligence,3,0.24
+Men,German,intelligence,4,0.26
+Women,American,shared interests,2,0.17
+Men,German,intelligence,5,0.2
+Men,German,intelligence,6,0.05
+Men,German,money,1,0.02
+Men,German,money,2,0.03
+Men,German,money,3,0.04
+Men,German,money,4,0.06
+Men,German,money,5,0.15
+Men,German,money,6,0.7
+Men,German,shared interests,1,0.12
+Men,German,shared interests,2,0.18
+Women,American,shared interests,3,0.18
+Men,German,shared interests,3,0.18
+Men,German,shared interests,4,0.23
+Men,German,shared interests,5,0.21
+Men,German,shared interests,6,0.08
+Women,German,looks,1,0.07
+Women,German,looks,2,0.07
+Women,German,looks,3,0.09
+Women,German,looks,4,0.17
+Women,German,looks,5,0.35
+Women,German,looks,6,0.24
+Women,American,shared interests,4,0.22
+Women,German,personality,1,0.56
+Women,German,personality,2,0.21
+Women,German,personality,3,0.11
+Women,German,personality,4,0.07
+Women,German,personality,5,0.04
+Women,German,personality,6,0.02
+Women,German,humor,1,0.17
+Women,German,humor,2,0.32
+Women,German,humor,3,0.26
+Women,German,humor,4,0.13
+Men,American,personality,2,0.24
+Women,American,shared interests,5,0.15
+Women,German,humor,5,0.08
+Women,German,humor,6,0.05
+Women,German,intelligence,1,0.07
+Women,German,intelligence,2,0.19
+Women,German,intelligence,3,0.23
+Women,German,intelligence,4,0.31
+Women,German,intelligence,5,0.14
+Women,German,intelligence,6,0.05
+Women,German,money,1,0.01
+Women,German,money,2,0.03
+Women,American,shared interests,6,0.08
+Women,German,money,3,0.07
+Women,German,money,4,0.1
+Women,German,money,5,0.25
+Women,German,money,6,0.55
+Women,German,shared interests,1,0.13
+Women,German,shared interests,2,0.19
+Women,German,shared interests,3,0.24
+Women,German,shared interests,4,0.22
+Women,German,shared interests,5,0.14
+Women,German,shared interests,6,0.09
+Men,Arabian,looks,1,0.35
+Men,Hong Kong,looks,1,0.33
+Men,Hong Kong,looks,2,0.21
+Men,Hong Kong,looks,3,0.17
+Men,Hong Kong,looks,4,0.14
+Men,Hong Kong,looks,5,0.08
+Men,Hong Kong,looks,6,0.07
+Men,Hong Kong,personality,1,0.45
+Men,Hong Kong,personality,2,0.26
+Men,Hong Kong,personality,3,0.12
+Men,Hong Kong,personality,4,0.07
+Men,Arabian,looks,2,0.18
+Men,Hong Kong,personality,5,0.06
+Men,Hong Kong,personality,6,0.04
+Men,Hong Kong,humor,1,0.06
+Men,Hong Kong,humor,2,0.14
+Men,Hong Kong,humor,3,0.21
+Men,Hong Kong,humor,4,0.23
+Men,Hong Kong,humor,5,0.25
+Men,Hong Kong,humor,6,0.11
+Men,Hong Kong,intelligence,1,0.06
+Men,Hong Kong,intelligence,2,0.13
+Men,Arabian,looks,3,0.16
+Men,Hong Kong,intelligence,3,0.2
+Men,Hong Kong,intelligence,4,0.26
+Men,Hong Kong,intelligence,5,0.24
+Men,Hong Kong,intelligence,6,0.12
+Men,Hong Kong,money,1,0.03
+Men,Hong Kong,money,2,0.05
+Men,Hong Kong,money,3,0.08
+Men,Hong Kong,money,4,0.1
+Men,Hong Kong,money,5,0.18
+Men,Hong Kong,money,6,0.56
+Men,Arabian,looks,4,0.15
+Men,Hong Kong,shared interests,1,0.07
+Men,Hong Kong,shared interests,2,0.22
+Men,Hong Kong,shared interests,3,0.22
+Men,Hong Kong,shared interests,4,0.2
+Men,Hong Kong,shared interests,5,0.19
+Men,Hong Kong,shared interests,6,0.11
+Women,Hong Kong,looks,1,0.19
+Women,Hong Kong,looks,2,0.11
+Women,Hong Kong,looks,3,0.17
+Women,Hong Kong,looks,4,0.17
+Men,Arabian,looks,5,0.11
+Women,Hong Kong,looks,5,0.21
+Women,Hong Kong,looks,6,0.17
+Women,Hong Kong,personality,1,0.53
+Women,Hong Kong,personality,2,0.23
+Women,Hong Kong,personality,3,0.1
+Women,Hong Kong,personality,4,0.06
+Women,Hong Kong,personality,5,0.04
+Women,Hong Kong,personality,6,0.04
+Women,Hong Kong,humor,1,0.09
+Women,Hong Kong,humor,2,0.22
+Men,Arabian,looks,6,0.05
+Women,Hong Kong,humor,3,0.25
+Women,Hong Kong,humor,4,0.19
+Women,Hong Kong,humor,5,0.16
+Women,Hong Kong,humor,6,0.09
+Women,Hong Kong,intelligence,1,0.08
+Women,Hong Kong,intelligence,2,0.14
+Women,Hong Kong,intelligence,3,0.19
+Women,Hong Kong,intelligence,4,0.27
+Women,Hong Kong,intelligence,5,0.19
+Women,Hong Kong,intelligence,6,0.12
+Men,Arabian,personality,1,0.29
+Women,Hong Kong,money,1,0.03
+Women,Hong Kong,money,2,0.05
+Women,Hong Kong,money,3,0.09
+Women,Hong Kong,money,4,0.15
+Women,Hong Kong,money,5,0.26
+Women,Hong Kong,money,6,0.42
+Women,Hong Kong,shared interests,1,0.09
+Women,Hong Kong,shared interests,2,0.25
+Women,Hong Kong,shared interests,3,0.2
+Women,Hong Kong,shared interests,4,0.16
+Men,Arabian,personality,2,0.26
+Women,Hong Kong,shared interests,5,0.14
+Women,Hong Kong,shared interests,6,0.16
+Men,Indian,looks,1,0.17
+Men,Indian,looks,2,0.16
+Men,Indian,looks,3,0.17
+Men,Indian,looks,4,0.15
+Men,Indian,looks,5,0.25
+Men,Indian,looks,6,0.1
+Men,Indian,personality,1,0.22
+Men,Indian,personality,2,0.19
+Men,American,personality,3,0.15
+Men,Arabian,personality,3,0.15
+Men,Indian,personality,3,0.21
+Men,Indian,personality,4,0.18
+Men,Indian,personality,5,0.13
+Men,Indian,personality,6,0.08
+Men,Indian,humor,1,0.19
+Men,Indian,humor,2,0.19
+Men,Indian,humor,3,0.2
+Men,Indian,humor,4,0.16
+Men,Indian,humor,5,0.18
+Men,Indian,humor,6,0.07
+Men,Arabian,personality,4,0.12
+Men,Indian,intelligence,1,0.15
+Men,Indian,intelligence,2,0.22
+Men,Indian,intelligence,3,0.2
+Men,Indian,intelligence,4,0.22
+Men,Indian,intelligence,5,0.13
+Men,Indian,intelligence,6,0.07
+Men,Indian,money,1,0.03
+Men,Indian,money,2,0.03
+Men,Indian,money,3,0.07
+Men,Indian,money,4,0.09
+Men,Arabian,personality,5,0.13
+Men,Indian,money,5,0.16
+Men,Indian,money,6,0.62
+Men,Indian,shared interests,1,0.23
+Men,Indian,shared interests,2,0.2
+Men,Indian,shared interests,3,0.16
+Men,Indian,shared interests,4,0.2
+Men,Indian,shared interests,5,0.15
+Men,Indian,shared interests,6,0.06
+Women,Indian,looks,1,0.06
+Women,Indian,looks,2,0.11
+Men,Arabian,personality,6,0.05
+Women,Indian,looks,3,0.12
+Women,Indian,looks,4,0.16
+Women,Indian,looks,5,0.27
+Women,Indian,looks,6,0.28
+Women,Indian,personality,1,0.28
+Women,Indian,personality,2,0.18
+Women,Indian,personality,3,0.18
+Women,Indian,personality,4,0.17
+Women,Indian,personality,5,0.12
+Women,Indian,personality,6,0.06
+Men,Arabian,humor,1,0.04
+Women,Indian,humor,1,0.19
+Women,Indian,humor,2,0.22
+Women,Indian,humor,3,0.2
+Women,Indian,humor,4,0.16
+Women,Indian,humor,5,0.14
+Women,Indian,humor,6,0.1
+Women,Indian,intelligence,1,0.22
+Women,Indian,intelligence,2,0.23
+Women,Indian,intelligence,3,0.23
+Women,Indian,intelligence,4,0.17
+Men,Arabian,humor,2,0.13
+Women,Indian,intelligence,5,0.1
+Women,Indian,intelligence,6,0.04
+Women,Indian,money,1,0.04
+Women,Indian,money,2,0.09
+Women,Indian,money,3,0.09
+Women,Indian,money,4,0.16
+Women,Indian,money,5,0.23
+Women,Indian,money,6,0.39
+Women,Indian,shared interests,1,0.2
+Women,Indian,shared interests,2,0.18
+Men,Arabian,humor,3,0.24
+Women,Indian,shared interests,3,0.18
+Women,Indian,shared interests,4,0.17
+Women,Indian,shared interests,5,0.14
+Women,Indian,shared interests,6,0.13
+Men,Indonesian,looks,1,0.35
+Men,Indonesian,looks,2,0.19
+Men,Indonesian,looks,3,0.2
+Men,Indonesian,looks,4,0.11
+Men,Indonesian,looks,5,0.11
+Men,Indonesian,looks,6,0.05
+Men,Arabian,humor,4,0.27
+Men,Indonesian,personality,1,0.35
+Men,Indonesian,personality,2,0.26
+Men,Indonesian,personality,3,0.15
+Men,Indonesian,personality,4,0.12
+Men,Indonesian,personality,5,0.08
+Men,Indonesian,personality,6,0.04
+Men,Indonesian,humor,1,0.08
+Men,Indonesian,humor,2,0.16
+Men,Indonesian,humor,3,0.18
+Men,Indonesian,humor,4,0.32
+Men,Arabian,humor,5,0.22
+Men,Indonesian,humor,5,0.19
+Men,Indonesian,humor,6,0.07
+Men,Indonesian,intelligence,1,0.15
+Men,Indonesian,intelligence,2,0.26
+Men,Indonesian,intelligence,3,0.26
+Men,Indonesian,intelligence,4,0.2
+Men,Indonesian,intelligence,5,0.09
+Men,Indonesian,intelligence,6,0.03
+Men,Indonesian,money,1,0.03
+Men,Indonesian,money,2,0.03
+Men,Arabian,humor,6,0.09
+Men,Indonesian,money,3,0.06
+Men,Indonesian,money,4,0.09
+Men,Indonesian,money,5,0.16
+Men,Indonesian,money,6,0.64
+Men,Indonesian,shared interests,1,0.05
+Men,Indonesian,shared interests,2,0.1
+Men,Indonesian,shared interests,3,0.15
+Men,Indonesian,shared interests,4,0.17
+Men,Indonesian,shared interests,5,0.36
+Men,Indonesian,shared interests,6,0.17
+Men,American,personality,4,0.08
+Men,Arabian,intelligence,1,0.15
+Women,Indonesian,looks,1,0.18
+Women,Indonesian,looks,2,0.12
+Women,Indonesian,looks,3,0.14
+Women,Indonesian,looks,4,0.18
+Women,Indonesian,looks,5,0.22
+Women,Indonesian,looks,6,0.17
+Women,Indonesian,personality,1,0.46
+Women,Indonesian,personality,2,0.2
+Women,Indonesian,personality,3,0.12
+Women,Indonesian,personality,4,0.1
+Men,Arabian,intelligence,2,0.21
+Women,Indonesian,personality,5,0.08
+Women,Indonesian,personality,6,0.04
+Women,Indonesian,humor,1,0.09
+Women,Indonesian,humor,2,0.22
+Women,Indonesian,humor,3,0.2
+Women,Indonesian,humor,4,0.17
+Women,Indonesian,humor,5,0.19
+Women,Indonesian,humor,6,0.14
+Women,Indonesian,intelligence,1,0.18
+Women,Indonesian,intelligence,2,0.26
+Men,Arabian,intelligence,3,0.27
+Women,Indonesian,intelligence,3,0.27
+Women,Indonesian,intelligence,4,0.16
+Women,Indonesian,intelligence,5,0.08
+Women,Indonesian,intelligence,6,0.05
+Women,Indonesian,money,1,0.05
+Women,Indonesian,money,2,0.1
+Women,Indonesian,money,3,0.14
+Women,Indonesian,money,4,0.19
+Women,Indonesian,money,5,0.23
+Women,Indonesian,money,6,0.28
+Men,Arabian,intelligence,4,0.21
+Women,Indonesian,shared interests,1,0.03
+Women,Indonesian,shared interests,2,0.11
+Women,Indonesian,shared interests,3,0.12
+Women,Indonesian,shared interests,4,0.2
+Women,Indonesian,shared interests,5,0.22
+Women,Indonesian,shared interests,6,0.32
+Men,Malaysian,looks,1,0.24
+Men,Malaysian,looks,2,0.15
+Men,Malaysian,looks,3,0.15
+Men,Malaysian,looks,4,0.16
+Men,Arabian,intelligence,5,0.13
+Men,Malaysian,looks,5,0.18
+Men,Malaysian,looks,6,0.13
+Men,Malaysian,personality,1,0.42
+Men,Malaysian,personality,2,0.23
+Men,Malaysian,personality,3,0.14
+Men,Malaysian,personality,4,0.1
+Men,Malaysian,personality,5,0.06
+Men,Malaysian,personality,6,0.05
+Men,Malaysian,humor,1,0.08
+Men,Malaysian,humor,2,0.21
+Men,Arabian,intelligence,6,0.03
+Men,Malaysian,humor,3,0.21
+Men,Malaysian,humor,4,0.2
+Men,Malaysian,humor,5,0.18
+Men,Malaysian,humor,6,0.12
+Men,Malaysian,intelligence,1,0.11
+Men,Malaysian,intelligence,2,0.16
+Men,Malaysian,intelligence,3,0.26
+Men,Malaysian,intelligence,4,0.24
+Men,Malaysian,intelligence,5,0.18
+Men,Malaysian,intelligence,6,0.05
+Men,Arabian,money,1,0.02
+Men,Malaysian,money,1,0.03
+Men,Malaysian,money,2,0.07
+Men,Malaysian,money,3,0.09
+Men,Malaysian,money,4,0.12
+Men,Malaysian,money,5,0.16
+Men,Malaysian,money,6,0.52
+Men,Malaysian,shared interests,1,0.11
+Men,Malaysian,shared interests,2,0.18
+Men,Malaysian,shared interests,3,0.15
+Men,Malaysian,shared interests,4,0.18
+Men,Arabian,money,2,0.03
+Men,Malaysian,shared interests,5,0.24
+Men,Malaysian,shared interests,6,0.13
+Women,Malaysian,looks,1,0.09
+Women,Malaysian,looks,2,0.08
+Women,Malaysian,looks,3,0.11
+Women,Malaysian,looks,4,0.14
+Women,Malaysian,looks,5,0.2
+Women,Malaysian,looks,6,0.38
+Women,Malaysian,personality,1,0.47
+Women,Malaysian,personality,2,0.23
+Men,Arabian,money,3,0.04
+Women,Malaysian,personality,3,0.13
+Women,Malaysian,personality,4,0.09
+Women,Malaysian,personality,5,0.05
+Women,Malaysian,personality,6,0.03
+Women,Malaysian,humor,1,0.14
+Women,Malaysian,humor,2,0.21
+Women,Malaysian,humor,3,0.21
+Women,Malaysian,humor,4,0.2
+Women,Malaysian,humor,5,0.12
+Women,Malaysian,humor,6,0.11
+Men,Arabian,money,4,0.1
+Women,Malaysian,intelligence,1,0.13
+Women,Malaysian,intelligence,2,0.2
+Women,Malaysian,intelligence,3,0.22
+Women,Malaysian,intelligence,4,0.22
+Women,Malaysian,intelligence,5,0.17
+Women,Malaysian,intelligence,6,0.06
+Women,Malaysian,money,1,0.09
+Women,Malaysian,money,2,0.13
+Women,Malaysian,money,3,0.14
+Women,Malaysian,money,4,0.18
