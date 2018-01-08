@@ -12,31 +12,32 @@ Promise
 function createAdjacencyMatrix(nodes, edges) {
   var edgeHash = {};
   edges.forEach(edge => {
-    if (edge.source !== edge.target) {
-      var id = `${edge.source}-${edge.target}`;
-    }
+    var id = `${edge.source}-${edge.target}`;
     edgeHash[id] = edge;
   });
 
   var matrix = [];
   nodes.forEach((source, a) => {
     nodes.forEach((target, b) => {
-      var grid = {
-        id: `${source.id}-${target.id}`,
-        x: b,
-        y: a,
-        weight: 0
-      };
-      if (edgeHash[grid.id]) {
-        grid.weight = edgeHash[grid.id].weight;
+      // filter out the self-loop
+      if (isNaN(Number(source.id)) === true && isNaN(Number(target.id)) === false) {
+        var grid = {
+          id: `${source.id}-${target.id}`,
+          x: b,
+          y: a,
+          weight: 0
+        };
+        if (edgeHash[grid.id]) {
+          grid.weight = edgeHash[grid.id].weight;
+        }
+        matrix.push(grid);
       }
-      matrix.push(grid);
     });
   });
 
-  console.log(matrix);
-
   d3.select("svg")
+    .attr("width", "400px")
+    .attr("height", "400px")
     .append("g")
       .attr("transform", "translate(50,50)")
       .attr("id", "adjacencyG")
@@ -51,24 +52,34 @@ function createAdjacencyMatrix(nodes, edges) {
 
   d3.select("svg")
     .append("g")
-    .attr("transform", "translate(50,45)")
+    .attr("transform", "translate(215,45)")
     .selectAll("text")
-    .data(nodes)
+    .data([1, 2, 3, 4, 5, 6])
     .enter()
     .append("text")
-    .attr("x", (d, i) => i * 25 + 12.5)
-    .text(d => d.id)
+    .attr("x", (d, i) => i * 25)
+    .text(d => d)
     .style("text-anchor", "middle");
 
   d3.select("svg")
     .append("g")
-    .attr("transform", "translate(45,50)")
+    .attr("transform", "translate(190,70)")
     .selectAll("text")
-    .data(nodes)
+    .data(["looks", "personality", "humor", "intelligence", "money", "shared interests"])
     .enter()
     .append("text")
-    .attr("y", (d, i) => i * 25 + 12.5)
-    .text(d => d.id)
+    .attr("y", (d, i) => i * 25)
+    .text(d => d)
     .style("text-anchor", "end");
+
+  d3.selectAll("rect.grid").on("mouseover", gridOver);
+
+  function gridOver(d) {
+
+    d3.selectAll("rect")
+        .style("fill", function (p) {
+          return p.x * 25 == d.x * 25 || p.y * 25 == d.y * 25 ? "red" : "grey"
+        });
+  }
 
 }
