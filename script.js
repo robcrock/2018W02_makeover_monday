@@ -2,39 +2,41 @@ var PromiseWrapper = d => new Promise(resolve => d3.csv(d, p => resolve(p)));
 
 Promise
   .all([
-    PromiseWrapper("american_women_nodes.csv"),
     PromiseWrapper("american_women.csv")
   ])
   .then(resolve => {
-    createAdjacencyMatrix(resolve[0], resolve[1]);
+    createAdjacencyMatrix(resolve[0]);
   });
 
-function createAdjacencyMatrix(nodes, edges) {
+function createAdjacencyMatrix(edges) {
+  // CREATE LIST OF SOURCE AND DESTS
   var edgeHash = {};
   edges.forEach(edge => {
     var id = `${edge.source}-${edge.target}`;
     edgeHash[id] = edge;
   });
 
+  // CREATE A FORM WE CAN MAKE A 6x6 GRID OUT OF
   var matrix = [];
-  nodes.forEach((source, a) => {
-    nodes.forEach((target, b) => {
-      // filter out the self-loop
-      if (isNaN(Number(source.id)) === true && isNaN(Number(target.id)) === false) {
+  const characteristics = ["looks", "personality", "humor", "intelligence", "money", "shared interests"];
+  const rank = [1,2,3,4,5,6];
+  characteristics.forEach((source, a) => {
+    rank.forEach((target, b) => {
         var grid = {
-          id: `${source.id}-${target.id}`,
+          id: `${source}-${target}`,
           x: b,
           y: a,
           weight: 0
         };
+        console.log(`source: ${source} ,target ${target}`)
         if (edgeHash[grid.id]) {
           grid.weight = edgeHash[grid.id].weight;
         }
         matrix.push(grid);
-      }
     });
   });
 
+  // APPEND THE GRID
   d3.select("svg")
     .attr("width", "400px")
     .attr("height", "400px")
@@ -49,28 +51,6 @@ function createAdjacencyMatrix(nodes, edges) {
       .attr("x", d => d.x * 25)
       .attr("y", d => d.y * 25)
       .style("fill-opacity", d => d.weight);
-
-  d3.select("svg")
-    .append("g")
-    .attr("transform", "translate(215,45)")
-    .selectAll("text")
-    .data([1, 2, 3, 4, 5, 6])
-    .enter()
-    .append("text")
-    .attr("x", (d, i) => i * 25)
-    .text(d => d)
-    .style("text-anchor", "middle");
-
-  d3.select("svg")
-    .append("g")
-    .attr("transform", "translate(190,70)")
-    .selectAll("text")
-    .data(["looks", "personality", "humor", "intelligence", "money", "shared interests"])
-    .enter()
-    .append("text")
-    .attr("y", (d, i) => i * 25)
-    .text(d => d)
-    .style("text-anchor", "end");
 
   d3.selectAll("rect.grid").on("mouseover", gridOver);
 
