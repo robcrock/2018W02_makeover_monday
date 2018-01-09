@@ -2,22 +2,34 @@ var PromiseWrapper = d => new Promise(resolve => d3.csv(d, p => resolve(p)));
 
 Promise
   .all([
-    PromiseWrapper("american.csv")
+    PromiseWrapper("data/german.csv"),
+    PromiseWrapper("data/british.csv"),
+    PromiseWrapper("data/malaysian.csv"),
+    PromiseWrapper("data/hong_kong.csv")
   ])
   .then(resolve => {
-    createAdjacencyMatrix_american(resolve[0]);
+    createAdjacencyMatrix(
+      resolve[0],
+      resolve[1],
+      resolve[2],
+      resolve[3]
+    );
   });
 
-function createAdjacencyMatrix_american(edges) {
-  // CREATE LIST OF SOURCE AND DESTS
-  var edgeHash = {};
-  edges.forEach(edge => {
+function createAdjacencyMatrix(german,
+  british,
+  malaysian,
+  hong_kong
+) {
+
+  // GERMAN
+  var germanHash = {};
+  german.forEach(edge => {
     var id = `${edge.source}-${edge.target}`;
-    edgeHash[id] = edge;
+    germanHash[id] = edge;
   });
 
-  // CREATE A FORM WE CAN MAKE A 6x6 GRID OUT OF
-  var matrix = [];
+  var germanMatrix = [];
   const characteristics = ["Looks", "Personality", "Humor", "Intelligence", "Money", "Interests"];
   const rank = [1,2,3,4,5,6];
   characteristics.forEach((source, a) => {
@@ -29,21 +41,16 @@ function createAdjacencyMatrix_american(edges) {
           percentage: 0
         };
         console.log(`source: ${source} ,target ${target}`)
-        if (edgeHash[grid.id]) {
-          grid.percentage = edgeHash[grid.id].percentage;
+      if (germanHash[grid.id]) {
+          grid.percentage = germanHash[grid.id].percentage;
         }
-        matrix.push(grid);
+      germanMatrix.push(grid);
     });
   });
 
-  // APPEND THE GRID
-  d3.select("svg")
-    .attr("width", "400px")
-    .attr("height", "400px")
+  d3.select(".german")
     .append("g")
-      .attr("transform", "translate(50,50)")
-      .attr("id", "adjacencyG")
-    .selectAll("rect").data(matrix).enter()
+    .selectAll("rect").data(germanMatrix).enter()
     .append("rect")
       .attr("class", "grid")
       .attr("width", 25)
@@ -52,6 +59,113 @@ function createAdjacencyMatrix_american(edges) {
       .attr("y", d => d.y * 25)
       .style("fill-opacity", d => d.percentage);
 
+  // BRITISH
+  var britishHash = {};
+  british.forEach(edge => {
+    var id = `${edge.source}-${edge.target}`;
+    britishHash[id] = edge;
+  });
+
+  var britishMatrix = [];
+  characteristics.forEach((source, a) => {
+    rank.forEach((target, b) => {
+      var grid = {
+        id: `${source}-${target}`,
+        x: b,
+        y: a,
+        percentage: 0
+      };
+      console.log(`source: ${source} ,target ${target}`)
+      if (britishHash[grid.id]) {
+        grid.percentage = britishHash[grid.id].percentage;
+      }
+      britishMatrix.push(grid);
+    });
+  });
+
+  d3.select(".british")
+    .append("g")
+    .selectAll("rect").data(britishMatrix).enter()
+    .append("rect")
+    .attr("class", "grid")
+    .attr("width", 25)
+    .attr("height", 25)
+    .attr("x", d => d.x * 25)
+    .attr("y", d => d.y * 25)
+    .style("fill-opacity", d => d.percentage);
+
+  // MALAYSIAN
+  var malaysianHash = {};
+  malaysian.forEach(edge => {
+    var id = `${edge.source}-${edge.target}`;
+    malaysianHash[id] = edge;
+  });
+
+  var malaysianMatrix = [];
+  characteristics.forEach((source, a) => {
+    rank.forEach((target, b) => {
+      var grid = {
+        id: `${source}-${target}`,
+        x: b,
+        y: a,
+        percentage: 0
+      };
+      console.log(`source: ${source} ,target ${target}`)
+      if (malaysianHash[grid.id]) {
+        grid.percentage = malaysianHash[grid.id].percentage;
+      }
+      malaysianMatrix.push(grid);
+    });
+  });
+
+  d3.select(".malaysian")
+    .append("g")
+    .selectAll("rect").data(malaysianMatrix).enter()
+    .append("rect")
+    .attr("class", "grid")
+    .attr("width", 25)
+    .attr("height", 25)
+    .attr("x", d => d.x * 25)
+    .attr("y", d => d.y * 25)
+    .style("fill-opacity", d => d.percentage);
+
+  // HONG KONG
+  var hongKongHash = {};
+  hong_kong.forEach(edge => {
+    var id = `${edge.source}-${edge.target}`;
+    hongKongHash[id] = edge;
+  });
+
+  var hongKongMatrix = [];
+  characteristics.forEach((source, a) => {
+    rank.forEach((target, b) => {
+      var grid = {
+        id: `${source}-${target}`,
+        x: b,
+        y: a,
+        percentage: 0
+      };
+      console.log(`source: ${source} ,target ${target}`)
+      if (hongKongHash[grid.id]) {
+        grid.percentage = hongKongHash[grid.id].percentage;
+      }
+      hongKongMatrix.push(grid);
+    });
+  });
+
+  d3.select(".hong_kong")
+    .append("g")
+    .selectAll("rect").data(hongKongMatrix).enter()
+    .append("rect")
+    .attr("class", "grid")
+    .attr("width", 25)
+    .attr("height", 25)
+    .attr("x", d => d.x * 25)
+    .attr("y", d => d.y * 25)
+    .style("fill-opacity", d => d.percentage);
+
+
+  // MOUSE OVER FUN
   d3.selectAll("rect.grid").on("mouseover", gridOver);
 
   function gridOver(d) {
