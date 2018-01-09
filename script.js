@@ -2,13 +2,13 @@ var PromiseWrapper = d => new Promise(resolve => d3.csv(d, p => resolve(p)));
 
 Promise
   .all([
-    PromiseWrapper("american_women.csv")
+    PromiseWrapper("american.csv")
   ])
   .then(resolve => {
-    createAdjacencyMatrix(resolve[0]);
+    createAdjacencyMatrix_american(resolve[0]);
   });
 
-function createAdjacencyMatrix(edges) {
+function createAdjacencyMatrix_american(edges) {
   // CREATE LIST OF SOURCE AND DESTS
   var edgeHash = {};
   edges.forEach(edge => {
@@ -18,7 +18,7 @@ function createAdjacencyMatrix(edges) {
 
   // CREATE A FORM WE CAN MAKE A 6x6 GRID OUT OF
   var matrix = [];
-  const characteristics = ["looks", "personality", "humor", "intelligence", "money", "shared interests"];
+  const characteristics = ["Looks", "Personality", "Humor", "Intelligence", "Money", "Interests"];
   const rank = [1,2,3,4,5,6];
   characteristics.forEach((source, a) => {
     rank.forEach((target, b) => {
@@ -26,11 +26,11 @@ function createAdjacencyMatrix(edges) {
           id: `${source}-${target}`,
           x: b,
           y: a,
-          weight: 0
+          percentage: 0
         };
         console.log(`source: ${source} ,target ${target}`)
         if (edgeHash[grid.id]) {
-          grid.weight = edgeHash[grid.id].weight;
+          grid.percentage = edgeHash[grid.id].percentage;
         }
         matrix.push(grid);
     });
@@ -50,7 +50,7 @@ function createAdjacencyMatrix(edges) {
       .attr("height", 25)
       .attr("x", d => d.x * 25)
       .attr("y", d => d.y * 25)
-      .style("fill-opacity", d => d.weight);
+      .style("fill-opacity", d => d.percentage);
 
   d3.selectAll("rect.grid").on("mouseover", gridOver);
 
