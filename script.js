@@ -89,7 +89,7 @@ function createAdjacencyMatrix(
 
   d3.select(".key")
     .append("g")
-    .attr('transform', 'translate(5, 60)')
+    .attr('transform', 'translate(5, 40)')
     .selectAll("rect").data(keyMatrix).enter()
     .append("rect")
     .attr("class", "key")
@@ -101,22 +101,24 @@ function createAdjacencyMatrix(
 
   d3.select(".key")
     .append('g')
-      .attr('transform', 'translate(100, 72)')
+      .attr('transform', 'translate(100, 52)')
     .selectAll('text').data(characteristics).enter()
     .append('text')
       .attr('y', (d, i) => i * 15)
       .text(d => d)
       .style('text-anchor', 'start')
-      .style('font-family', 'Roboto');
+      .style('font-family', 'Roboto')
+      .style('font-size', '10px');
 
   d3.select(".key")
     .append('g')
-    .attr('transform', 'translate(10,165)')
+    .attr('transform', 'translate(10,140)')
     .selectAll('text').data(rank).enter()
     .append('text')
     .attr('x', (d, i) => i * 15)
     .text(d => d)
-    .style('font-family', 'Roboto');
+    .style('font-family', 'Roboto')
+    .style('font-size', '10px');
 
   // GERMAN
   var germanHash = {};
