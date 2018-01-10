@@ -71,6 +71,35 @@ function createAdjacencyMatrix(
     norwegian
   ) {
 
+  // KEY
+  var keyMatrix = [];
+  const characteristics = ["Personality", "Humor", "Intelligence", "Looks", "Interests", "Money"];
+  const rank = [1, 2, 3, 4, 5, 6];
+  characteristics.forEach((source, a) => {
+    rank.forEach((target, b) => {
+      var grid = {
+        id: `${source}-${target}`,
+        x: b,
+        y: a,
+        percentage: 0
+      };
+      keyMatrix.push(grid);
+    });
+  });
+
+  d3.select(".key")
+    .append("g")
+    .selectAll("rect").data(keyMatrix).enter()
+    .append("rect")
+    .attr("class", "grid")
+    .attr("width", 10)
+    .attr("height", 10)
+    .attr("x", d => d.x * 10)
+    .attr("y", d => d.y * 10)
+    .style("fill-opacity", d => d.percentage)
+    .style("stroke", "#ccc")
+    .style("stroke-width", '1px');
+
   // GERMAN
   var germanHash = {};
   german.forEach(edge => {
@@ -79,8 +108,6 @@ function createAdjacencyMatrix(
   });
 
   var germanMatrix = [];
-  const characteristics = ["Looks", "Personality", "Humor", "Intelligence", "Money", "Interests"];
-  const rank = [1,2,3,4,5,6];
   characteristics.forEach((source, a) => {
     rank.forEach((target, b) => {
         var grid = {
@@ -101,10 +128,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(germanMatrix).enter()
     .append("rect")
       .attr("class", "grid")
-      .attr("width", 25)
-      .attr("height", 25)
-      .attr("x", d => d.x * 25)
-      .attr("y", d => d.y * 25)
+      .attr("width", 15)
+      .attr("height", 15)
+      .attr("x", d => d.x * 15)
+      .attr("y", d => d.y * 15)
       .style("fill-opacity", d => d.percentage);
 
   // BRITISH
@@ -135,10 +162,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(britishMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // MALAYSIAN
@@ -169,10 +196,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(malaysianMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // HONG KONG
@@ -203,10 +230,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(hongKongMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // filipino
@@ -237,10 +264,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(filipinoMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
   
   // american
@@ -271,10 +298,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(americanMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // indonesian
@@ -305,10 +332,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(indonesianMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // singaporean
@@ -339,10 +366,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(singaporeanMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // thai
@@ -373,10 +400,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(thaiMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // french
@@ -407,10 +434,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(frenchMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // indian
@@ -441,10 +468,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(indianMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // australian
@@ -475,10 +502,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(australianMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // danish
@@ -509,10 +536,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(danishMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // swedish
@@ -543,10 +570,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(swedishMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // finnish
@@ -577,10 +604,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(finnishMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
     
   // vietnamese
@@ -611,10 +638,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(vietnameseMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // egyptian
@@ -645,10 +672,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(egyptianMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // uae
@@ -679,10 +706,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(uaeMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
     
   // arabian
@@ -713,10 +740,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(arabianMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // norwegian
@@ -747,10 +774,10 @@ function createAdjacencyMatrix(
     .selectAll("rect").data(norwegianMatrix).enter()
     .append("rect")
     .attr("class", "grid")
-    .attr("width", 25)
-    .attr("height", 25)
-    .attr("x", d => d.x * 25)
-    .attr("y", d => d.y * 25)
+    .attr("width", 15)
+    .attr("height", 15)
+    .attr("x", d => d.x * 15)
+    .attr("y", d => d.y * 15)
     .style("fill-opacity", d => d.percentage);
 
   // MOUSE OVER FUN
@@ -760,7 +787,7 @@ function createAdjacencyMatrix(
 
     d3.selectAll("rect")
         .style("fill", function (p) {
-          return p.x * 25 == d.x * 25 || p.y * 25 == d.y * 25 ? "red" : "grey"
+          return p.x * 15 == d.x * 15 || p.y * 15 == d.y * 15 ? "red" : "grey"
         });
   }
 
