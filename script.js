@@ -92,14 +92,12 @@ function createAdjacencyMatrix(
     .attr('transform', 'translate(5, 60)')
     .selectAll("rect").data(keyMatrix).enter()
     .append("rect")
-    .attr("class", "grid")
+    .attr("class", "key")
     .attr("width", 15)
     .attr("height", 15)
     .attr("x", d => d.x * 15)
     .attr("y", d => d.y * 15)
-    .style("fill-opacity", .1)
-    .style("stroke", "#ccc")
-    .style("stroke-width", '1px');
+    .style("fill-opacity", .1);
 
   d3.select(".key")
     .append('g')
@@ -108,7 +106,8 @@ function createAdjacencyMatrix(
     .append('text')
       .attr('y', (d, i) => i * 15)
       .text(d => d)
-      .style('text-anchor', 'start');
+      .style('text-anchor', 'start')
+      .style('font-family', 'Roboto');
 
   d3.select(".key")
     .append('g')
@@ -116,7 +115,8 @@ function createAdjacencyMatrix(
     .selectAll('text').data(rank).enter()
     .append('text')
     .attr('x', (d, i) => i * 15)
-    .text(d => d);
+    .text(d => d)
+    .style('font-family', 'Roboto');
 
   // GERMAN
   var germanHash = {};
@@ -799,14 +799,39 @@ function createAdjacencyMatrix(
     .style("fill-opacity", d => d.percentage);
 
   // MOUSE OVER FUN
-  d3.selectAll("rect.grid").on("mouseover", gridOver);
+  d3.selectAll("rect.key").on("mouseover", keyOver);
+  d3.selectAll("rect.key").on("mouseout", keyOut);
 
-  function gridOver(d) {
+  function keyOut(d) {
 
-    d3.selectAll("rect")
-        .style("fill", function (p) {
-          return p.x * 15 == d.x * 15 || p.y * 15 == d.y * 15 ? "red" : "grey"
-        });
+    d3.selectAll("rect.key ")
+      .style("fill", "#ccc")
+      .style("stroke", "")
+      .style("stroke-width", "0px");
+
+    d3.selectAll("rect.grid ")
+      .style("fill", "grey");
+
+  }
+
+  function keyOver(d) {
+
+    d3.selectAll("rect.key ")
+      .style("fill", function (p) {
+        return p.x * 15 == d.x * 15 || p.y * 15 == d.y * 15 ? "#666" : "#ccc"
+      })
+      .style("stroke", function(p) {
+        return p.x * 15 == d.x * 15 && p.y * 15 == d.y * 15 ? "#999" : ""
+        })
+      .style("stroke-width", function (p) {
+        return p.x * 15 == d.x * 15 || p.y * 15 == d.y * 15 ? "1px" : "0px"
+      });
+
+    d3.selectAll("rect.grid ")
+      .style("fill", function (p) {
+        return p.x * 15 == d.x * 15 || p.y * 15 == d.y * 15 ? "red" : "grey"
+      });
+
   }
 
 }
